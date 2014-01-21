@@ -10,4 +10,9 @@
 
 @interface FirstViewController : UIViewController
 
+@property (nonatomic, strong) NSMutableArray *quotesArray;
+@property (weak, nonatomic) IBOutlet UITextView *quoteField;
+
+- (IBAction)getRandomQuote:(UIButton *)sender;
+
 @end

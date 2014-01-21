@@ -15,13 +15,15 @@
 		152013A2188F063300E9C516 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 152013A1188F063300E9C516 /* AppDelegate.m */; };
 		152013A5188F063300E9C516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152013A3188F063300E9C516 /* Main.storyboard */; };
 		152013A8188F063400E9C516 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152013A7188F063400E9C516 /* FirstViewController.m */; };
-		152013AB188F063400E9C516 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152013AA188F063400E9C516 /* SecondViewController.m */; };
 		152013AD188F063400E9C516 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152013AC188F063400E9C516 /* Images.xcassets */; };
 		152013B4188F063400E9C516 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152013B3188F063400E9C516 /* XCTest.framework */; };
 		152013B5188F063400E9C516 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15201391188F063300E9C516 /* Foundation.framework */; };
 		152013B6188F063400E9C516 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15201395188F063300E9C516 /* UIKit.framework */; };
 		152013BE188F063400E9C516 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 152013BC188F063400E9C516 /* InfoPlist.strings */; };
 		152013C0188F063400E9C516 /* Bruce_Lee_QuotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 152013BF188F063400E9C516 /* Bruce_Lee_QuotesTests.m */; };
+		152013CA188F06E300E9C516 /* quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 152013C9188F06E300E9C516 /* quotes.plist */; };
+		152013CD188F0F6900E9C516 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152013CC188F0F6900E9C516 /* ListViewController.m */; };
+		152013D0188F0FE500E9C516 /* Quotes.m in Sources */ = {isa = PBXBuildFile; fileRef = 152013CF188F0FE500E9C516 /* Quotes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,14 +50,17 @@
 		152013A4188F063300E9C516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		152013A6188F063300E9C516 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		152013A7188F063400E9C516 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		152013A9188F063400E9C516 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		152013AA188F063400E9C516 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		152013AC188F063400E9C516 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		152013B2188F063400E9C516 /* Bruce Lee QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bruce Lee QuotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		152013B3188F063400E9C516 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		152013BB188F063400E9C516 /* Bruce Lee QuotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bruce Lee QuotesTests-Info.plist"; sourceTree = "<group>"; };
 		152013BD188F063400E9C516 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		152013BF188F063400E9C516 /* Bruce_Lee_QuotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bruce_Lee_QuotesTests.m; sourceTree = "<group>"; };
+		152013C9188F06E300E9C516 /* quotes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = quotes.plist; sourceTree = "<group>"; };
+		152013CB188F0F6900E9C516 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		152013CC188F0F6900E9C516 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		152013CE188F0FE500E9C516 /* Quotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quotes.h; sourceTree = "<group>"; };
+		152013CF188F0FE500E9C516 /* Quotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quotes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,10 +125,13 @@
 				152013A3188F063300E9C516 /* Main.storyboard */,
 				152013A6188F063300E9C516 /* FirstViewController.h */,
 				152013A7188F063400E9C516 /* FirstViewController.m */,
-				152013A9188F063400E9C516 /* SecondViewController.h */,
-				152013AA188F063400E9C516 /* SecondViewController.m */,
 				152013AC188F063400E9C516 /* Images.xcassets */,
 				15201398188F063300E9C516 /* Supporting Files */,
+				152013C9188F06E300E9C516 /* quotes.plist */,
+				152013CB188F0F6900E9C516 /* ListViewController.h */,
+				152013CC188F0F6900E9C516 /* ListViewController.m */,
+				152013CE188F0FE500E9C516 /* Quotes.h */,
+				152013CF188F0FE500E9C516 /* Quotes.m */,
 			);
 			path = "Bruce Lee Quotes";
 			sourceTree = "<group>";
@@ -236,6 +244,7 @@
 				152013AD188F063400E9C516 /* Images.xcassets in Resources */,
 				1520139C188F063300E9C516 /* InfoPlist.strings in Resources */,
 				152013A5188F063300E9C516 /* Main.storyboard in Resources */,
+				152013CA188F06E300E9C516 /* quotes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				152013AB188F063400E9C516 /* SecondViewController.m in Sources */,
 				152013A2188F063300E9C516 /* AppDelegate.m in Sources */,
 				152013A8188F063400E9C516 /* FirstViewController.m in Sources */,
+				152013D0188F0FE500E9C516 /* Quotes.m in Sources */,
+				152013CD188F0F6900E9C516 /* ListViewController.m in Sources */,
 				1520139E188F063300E9C516 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

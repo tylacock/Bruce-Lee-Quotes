@@ -13,17 +13,34 @@
 @end
 
 @implementation FirstViewController
-
-- (void)viewDidLoad
-{
+///////////////////////////////////////////////////////////////////////////////
+#pragma mark -  Life Cycle
+///////////////////////////////////////////////////////////////////////////////
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSString *plistCatPath = [[NSBundle mainBundle] pathForResource:@"quotes" ofType:@"plist"];
+    self.quotesArray= [NSMutableArray arrayWithContentsOfFile:plistCatPath];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
+
+///////////////////////////////////////////////////////////////////////////////
+#pragma mark -  Application Methods
+///////////////////////////////////////////////////////////////////////////////
+- (IBAction)getRandomQuote:(UIButton *)sender {
+    [self randomQouteReturn];
+}
+
+- (void)randomQouteReturn {
+    int array_tot = [self.quotesArray count];
+    int index = (arc4random() % array_tot);
+    
+    NSString *my_quote = self.quotesArray[index][@"quote"];
+    
+    self.quoteField.text = [NSString stringWithFormat:@"\n\n\n\n%@",  my_quote];
+    
+}
 @end

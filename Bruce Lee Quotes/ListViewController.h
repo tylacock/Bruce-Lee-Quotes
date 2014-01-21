@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  ListViewController.h
 //  Bruce Lee Quotes
 //
 //  Created by Lacock, Ty on 1/21/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface ListViewController : UITableViewController
 
 @end
