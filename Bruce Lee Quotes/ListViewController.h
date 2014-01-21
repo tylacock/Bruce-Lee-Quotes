@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Quotes.h"
 
 @interface ListViewController : UITableViewController
+
+@property (nonatomic, strong) NSString *plistCatPath;
+@property (nonatomic, strong) NSMutableArray *quotesArray;
 
 @end

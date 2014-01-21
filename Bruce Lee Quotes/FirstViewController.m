@@ -18,8 +18,8 @@
 ///////////////////////////////////////////////////////////////////////////////
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *plistCatPath = [[NSBundle mainBundle] pathForResource:@"quotes" ofType:@"plist"];
-    self.quotesArray= [NSMutableArray arrayWithContentsOfFile:plistCatPath];
+    [self startUp];
+    [self randomQouteReturn];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,12 +35,17 @@
 }
 
 - (void)randomQouteReturn {
-    int array_tot = [self.quotesArray count];
+    Quotes *quote = [[Quotes alloc] initWithContentsOfPlist:self.plistCatPath];
+    int array_tot = [quote.quoteArray count];
     int index = (arc4random() % array_tot);
     
-    NSString *my_quote = self.quotesArray[index][@"quote"];
-    
+    NSString *my_quote = quote.quoteArray[index][@"quote"];
     self.quoteField.text = [NSString stringWithFormat:@"\n\n\n\n%@",  my_quote];
+    
+}
+
+- (void)startUp {
+    self.plistCatPath = [[NSBundle mainBundle] pathForResource:@"quotes" ofType:@"plist"];
     
 }
 @end

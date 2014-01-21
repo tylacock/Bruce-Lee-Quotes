@@ -26,6 +26,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.plistCatPath = [[NSBundle mainBundle] pathForResource:@"quotes" ofType:@"plist"];
+    Quotes *quote = [[Quotes alloc] initWithContentsOfPlist:self.plistCatPath];
+    self.quotesArray = quote.quoteArray;
 }
 
 - (void)didReceiveMemoryWarning
@@ -45,7 +48,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return [self.quotesArray count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -53,7 +56,13 @@
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    // Configure the cell...
+    NSString *my_quote = self.quotesArray[indexPath.row][@"quote"];
+    cell.textLabel.text = my_quote;
+//    NSLog(@"%@", my_quote);
+//    NSLog(@"%@", self.quotesArray);
     
     return cell;
-}@end
+}
+
+
+@end

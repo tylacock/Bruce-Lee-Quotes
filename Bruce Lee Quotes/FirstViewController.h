@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Quotes.h"
 
 @interface FirstViewController : UIViewController
 
-@property (nonatomic, strong) NSMutableArray *quotesArray;
 @property (weak, nonatomic) IBOutlet UITextView *quoteField;
+@property (nonatomic, strong) NSString *plistCatPath;
+
 
 - (IBAction)getRandomQuote:(UIButton *)sender;
 

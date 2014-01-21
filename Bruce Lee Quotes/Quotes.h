@@ -10,7 +10,11 @@
 
 @interface Quotes : NSObject
 
+@property (nonatomic, strong) NSMutableArray *quoteArray;
 @property (nonatomic, strong) NSString *quoteBody;
+@property (nonatomic, strong) NSString *quoteAuthor;
 
-- (void)
+- (id)initWithContentsOfPlist:(NSString *)plist;
+- (NSString *)quoteBodyText;
+
 @end
