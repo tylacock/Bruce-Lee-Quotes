@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15201392188F063300E9C516 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15201391188F063300E9C516 /* Foundation.framework */; };
+		15201394188F063300E9C516 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15201393188F063300E9C516 /* CoreGraphics.framework */; };
+		15201396188F063300E9C516 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15201395188F063300E9C516 /* UIKit.framework */; };
+		1520139C188F063300E9C516 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1520139A188F063300E9C516 /* InfoPlist.strings */; };
+		1520139E188F063300E9C516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520139D188F063300E9C516 /* main.m */; };
+		152013A2188F063300E9C516 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 152013A1188F063300E9C516 /* AppDelegate.m */; };
+		152013A5188F063300E9C516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152013A3188F063300E9C516 /* Main.storyboard */; };
+		152013A8188F063400E9C516 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152013A7188F063400E9C516 /* FirstViewController.m */; };
+		152013AB188F063400E9C516 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152013AA188F063400E9C516 /* SecondViewController.m */; };
+		152013AD188F063400E9C516 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152013AC188F063400E9C516 /* Images.xcassets */; };
+		152013B4188F063400E9C516 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152013B3188F063400E9C516 /* XCTest.framework */; };
+		152013B5188F063400E9C516 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15201391188F063300E9C516 /* Foundation.framework */; };
+		152013B6188F063400E9C516 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15201395188F063300E9C516 /* UIKit.framework */; };
+		152013BE188F063400E9C516 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 152013BC188F063400E9C516 /* InfoPlist.strings */; };
+		152013C0188F063400E9C516 /* Bruce_Lee_QuotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 152013BF188F063400E9C516 /* Bruce_Lee_QuotesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		152013B7188F063400E9C516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15201386188F063300E9C516 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1520138D188F063300E9C516;
+			remoteInfo = "Bruce Lee Quotes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1520138E188F063300E9C516 /* Bruce Lee Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bruce Lee Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15201391188F063300E9C516 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15201393188F063300E9C516 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15201395188F063300E9C516 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15201399188F063300E9C516 /* Bruce Lee Quotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bruce Lee Quotes-Info.plist"; sourceTree = "<group>"; };
+		1520139B188F063300E9C516 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1520139D188F063300E9C516 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1520139F188F063300E9C516 /* Bruce Lee Quotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bruce Lee Quotes-Prefix.pch"; sourceTree = "<group>"; };
+		152013A0188F063300E9C516 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		152013A1188F063300E9C516 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		152013A4188F063300E9C516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		152013A6188F063300E9C516 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		152013A7188F063400E9C516 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		152013A9188F063400E9C516 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		152013AA188F063400E9C516 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		152013AC188F063400E9C516 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		152013B2188F063400E9C516 /* Bruce Lee QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bruce Lee QuotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		152013B3188F063400E9C516 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		152013BB188F063400E9C516 /* Bruce Lee QuotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bruce Lee QuotesTests-Info.plist"; sourceTree = "<group>"; };
+		152013BD188F063400E9C516 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		152013BF188F063400E9C516 /* Bruce_Lee_QuotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bruce_Lee_QuotesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1520138B188F063300E9C516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15201394188F063300E9C516 /* CoreGraphics.framework in Frameworks */,
+				15201396188F063300E9C516 /* UIKit.framework in Frameworks */,
+				15201392188F063300E9C516 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152013AF188F063400E9C516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152013B4188F063400E9C516 /* XCTest.framework in Frameworks */,
+				152013B6188F063400E9C516 /* UIKit.framework in Frameworks */,
+				152013B5188F063400E9C516 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15201385188F063300E9C516 = {
+			isa = PBXGroup;
+			children = (
+				15201397188F063300E9C516 /* Bruce Lee Quotes */,
+				152013B9188F063400E9C516 /* Bruce Lee QuotesTests */,
+				15201390188F063300E9C516 /* Frameworks */,
+				1520138F188F063300E9C516 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1520138F188F063300E9C516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1520138E188F063300E9C516 /* Bruce Lee Quotes.app */,
+				152013B2188F063400E9C516 /* Bruce Lee QuotesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15201390188F063300E9C516 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15201391188F063300E9C516 /* Foundation.framework */,
+				15201393188F063300E9C516 /* CoreGraphics.framework */,
+				15201395188F063300E9C516 /* UIKit.framework */,
+				152013B3188F063400E9C516 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15201397188F063300E9C516 /* Bruce Lee Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				152013A0188F063300E9C516 /* AppDelegate.h */,
+				152013A1188F063300E9C516 /* AppDelegate.m */,
+				152013A3188F063300E9C516 /* Main.storyboard */,
+				152013A6188F063300E9C516 /* FirstViewController.h */,
+				152013A7188F063400E9C516 /* FirstViewController.m */,
+				152013A9188F063400E9C516 /* SecondViewController.h */,
+				152013AA188F063400E9C516 /* SecondViewController.m */,
+				152013AC188F063400E9C516 /* Images.xcassets */,
+				15201398188F063300E9C516 /* Supporting Files */,
+			);
+			path = "Bruce Lee Quotes";
+			sourceTree = "<group>";
+		};
+		15201398188F063300E9C516 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15201399188F063300E9C516 /* Bruce Lee Quotes-Info.plist */,
+				1520139A188F063300E9C516 /* InfoPlist.strings */,
+				1520139D188F063300E9C516 /* main.m */,
+				1520139F188F063300E9C516 /* Bruce Lee Quotes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		152013B9188F063400E9C516 /* Bruce Lee QuotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				152013BF188F063400E9C516 /* Bruce_Lee_QuotesTests.m */,
+				152013BA188F063400E9C516 /* Supporting Files */,
+			);
+			path = "Bruce Lee QuotesTests";
+			sourceTree = "<group>";
+		};
+		152013BA188F063400E9C516 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				152013BB188F063400E9C516 /* Bruce Lee QuotesTests-Info.plist */,
+				152013BC188F063400E9C516 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1520138D188F063300E9C516 /* Bruce Lee Quotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152013C3188F063400E9C516 /* Build configuration list for PBXNativeTarget "Bruce Lee Quotes" */;
+			buildPhases = (
+				1520138A188F063300E9C516 /* Sources */,
+				1520138B188F063300E9C516 /* Frameworks */,
+				1520138C188F063300E9C516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bruce Lee Quotes";
+			productName = "Bruce Lee Quotes";
+			productReference = 1520138E188F063300E9C516 /* Bruce Lee Quotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		152013B1188F063400E9C516 /* Bruce Lee QuotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152013C6188F063400E9C516 /* Build configuration list for PBXNativeTarget "Bruce Lee QuotesTests" */;
+			buildPhases = (
+				152013AE188F063400E9C516 /* Sources */,
+				152013AF188F063400E9C516 /* Frameworks */,
+				152013B0188F063400E9C516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152013B8188F063400E9C516 /* PBXTargetDependency */,
+			);
+			name = "Bruce Lee QuotesTests";
+			productName = "Bruce Lee QuotesTests";
+			productReference = 152013B2188F063400E9C516 /* Bruce Lee QuotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15201386188F063300E9C516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = TWL;
+				TargetAttributes = {
+					152013B1188F063400E9C516 = {
+						TestTargetID = 1520138D188F063300E9C516;
+					};
+				};
+			};
+			buildConfigurationList = 15201389188F063300E9C516 /* Build configuration list for PBXProject "Bruce Lee Quotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15201385188F063300E9C516;
+			productRefGroup = 1520138F188F063300E9C516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1520138D188F063300E9C516 /* Bruce Lee Quotes */,
+				152013B1188F063400E9C516 /* Bruce Lee QuotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1520138C188F063300E9C516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152013AD188F063400E9C516 /* Images.xcassets in Resources */,
+				1520139C188F063300E9C516 /* InfoPlist.strings in Resources */,
+				152013A5188F063300E9C516 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152013B0188F063400E9C516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152013BE188F063400E9C516 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1520138A188F063300E9C516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152013AB188F063400E9C516 /* SecondViewController.m in Sources */,
+				152013A2188F063300E9C516 /* AppDelegate.m in Sources */,
+				152013A8188F063400E9C516 /* FirstViewController.m in Sources */,
+				1520139E188F063300E9C516 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152013AE188F063400E9C516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152013C0188F063400E9C516 /* Bruce_Lee_QuotesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		152013B8188F063400E9C516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1520138D188F063300E9C516 /* Bruce Lee Quotes */;
+			targetProxy = 152013B7188F063400E9C516 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1520139A188F063300E9C516 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1520139B188F063300E9C516 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		152013A3188F063300E9C516 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				152013A4188F063300E9C516 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		152013BC188F063400E9C516 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				152013BD188F063400E9C516 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		152013C1188F063400E9C516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		152013C2188F063400E9C516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		152013C4188F063400E9C516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bruce Lee Quotes/Bruce Lee Quotes-Prefix.pch";
+				INFOPLIST_FILE = "Bruce Lee Quotes/Bruce Lee Quotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		152013C5188F063400E9C516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bruce Lee Quotes/Bruce Lee Quotes-Prefix.pch";
+				INFOPLIST_FILE = "Bruce Lee Quotes/Bruce Lee Quotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		152013C7188F063400E9C516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bruce Lee Quotes.app/Bruce Lee Quotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bruce Lee Quotes/Bruce Lee Quotes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bruce Lee QuotesTests/Bruce Lee QuotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		152013C8188F063400E9C516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bruce Lee Quotes.app/Bruce Lee Quotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bruce Lee Quotes/Bruce Lee Quotes-Prefix.pch";
+				INFOPLIST_FILE = "Bruce Lee QuotesTests/Bruce Lee QuotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15201389188F063300E9C516 /* Build configuration list for PBXProject "Bruce Lee Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152013C1188F063400E9C516 /* Debug */,
+				152013C2188F063400E9C516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152013C3188F063400E9C516 /* Build configuration list for PBXNativeTarget "Bruce Lee Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152013C4188F063400E9C516 /* Debug */,
+				152013C5188F063400E9C516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		152013C6188F063400E9C516 /* Build configuration list for PBXNativeTarget "Bruce Lee QuotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152013C7188F063400E9C516 /* Debug */,
+				152013C8188F063400E9C516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15201386188F063300E9C516 /* Project object */;
+}
